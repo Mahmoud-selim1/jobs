@@ -1,0 +1,225 @@
+nav.navbar {
+  margin-bottom: 65px !important;
+}
+nav .navbar-brand img {
+  height: 60px;
+}
+nav .nav-link {
+  font-size: 19px;
+  font-weight: 300;
+  padding-left: 30px !important;
+}
+/*======== about =================*/
+.about {
+  height: 50vh;
+  position: relative;
+  background-image: url(../imgs/landing.png);
+  background-size: cover;
+}
+.about .container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.about span {
+  color: #555;
+  font-size: 16px;
+}
+.about span.one {
+  display: block;
+  margin-bottom: 12px;
+}
+.about h1 {
+  margin-bottom: 20px;
+  color: #744e2e !important;
+}
+.about span.two {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+/*======== information =================*/
+.info {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.info h2 {
+  padding-bottom: 40px;
+  padding-top: 20px;
+  font-weight: normal;
+}
+.info .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+.info .box {
+  border: 1px solid #f3eded;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.image {
+  overflow: hidden;
+  position: relative;
+}
+.info .box img {
+  width: 100%;
+
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.info .box .image::before {
+  content: "";
+  position: absolute;
+  height: 7px;
+  background-color: #006500;
+  width: 0%;
+  bottom: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  z-index: 3;
+}
+.info .box:hover .image::before {
+  width: 100%;
+}
+.info .box:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.info .box h3 {
+  color: #006500;
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: normal;
+  padding: 0 12px;
+}
+.info .box p {
+  padding: 0 12px;
+  line-height: 23px;
+  height: 60px;
+}
+/*======== job =================*/
+.job {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.job h2 {
+  padding-bottom: 40px;
+  padding-top: 20px;
+  font-weight: normal;
+}
+.job .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+.job .box {
+  border: 1px solid #f3eded;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.job .image {
+  overflow: hidden;
+  position: relative;
+}
+.job .box img {
+  width: 100%;
+
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.job .box .image::before {
+  content: "";
+  position: absolute;
+  height: 7px;
+  background-color: #006500;
+  width: 0%;
+  bottom: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  z-index: 3;
+}
+.job .box:hover .image::before {
+  width: 100%;
+}
+.job .box:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.job .box h3 {
+  color: #006500;
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: normal;
+  padding: 0 12px;
+}
+.job .box p {
+  padding: 0 12px;
+  line-height: 23px;
+  height: 60px;
+}
+/*=========sign===========*/
+.sign {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+.sign h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.sign ul li {
+  padding-bottom: 10px;
+  color: #006500;
+}
+.sign .button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #4267b2;
+  padding: 14px 32px;
+  font-size: 17px;
+  border-radius: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.sign .button a {
+  color: white;
+  text-decoration: none;
+}
+.sign i {
+  padding-right: 8px;
+}
